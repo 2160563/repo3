@@ -1,0 +1,183 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    
+}
+html{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    font-family: verdana;
+
+}
+
+header,nav,article,section,footer{
+    display: block;
+}
+
+
+.background{
+    background: url(background2.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+
+.header h1{
+    text-align: center;
+    padding: 250px 400px 30px 400px;
+    color: azure;
+    
+}
+.header p{
+    color: azure;
+    text-align: center;
+    padding: 0px 400px 50px 400px;
+    font-size: 25px;
+}
+
+.top_nav{
+    width: 100%;
+    font-family: verdana;
+    overflow:visible;
+    background-color:#333;
+    position:fixed;
+    top: 0;    
+}
+
+#right{
+    float:right;
+	display: inline;
+	padding: 10px;
+}
+#right a{
+	display:inline;
+    text-decoration: none;
+    color: #f2f2f2;
+    text-align: center; 
+    padding: 7px;
+}
+#left{
+	float: left;
+}
+
+.top_nav a{
+    text-decoration: none;
+    display: block;
+    color: #f2f2f2;
+    text-align: center; 
+    padding: 5px 7px;
+}
+.top_nav a:hover{
+    color: blueviolet;
+}
+.logo{
+    width:85px;
+    height: 30px;
+    float: left;   
+}
+
+
+.head{
+    font-family: sans-serif;
+    
+}
+.container{
+    margin: 5%;
+}
+.figure{
+    width: 38%  
+    
+}
+.text{
+    padding:3%;
+    width:55%;
+    
+}
+.text h3{
+    padding-bottom: 4%;
+}
+.pic{
+    width: 100%;
+    border: 1px solid black;
+	border-radius:10%;
+}
+.footer{
+    text-align: center;
+    background-color:#333;
+    color:azure;
+}
+
+.headlines a{
+    text-decoration: none;
+    color: black;
+
+	
+}
+figure.headlines{
+    margin: 5px;
+    border: 2px solid gray;
+    width: 30%;
+    display: inline-block;
+    background-color: whitesmoke;
+}
+figure.headlines:hover {
+    border: 2px solid black;
+    box-shadow: 0 2px 3px rgba(0,0,0,.4);
+}
+
+figure.headlines figcaption{
+	text-align: center;
+}
+
+figure.headlines img {
+    width: 100%;
+    height: 30%;
+	margin-left: auto;
+    margin-right: auto;
+	
+}
+.headlines img:hover{
+    opacity: 0.6;
+}
+img#map{
+	width: 100%;
+	transition: 0.4s;
+	border: 1px solid gray;
+}
+#inclurights{
+	width: 80%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	
+}
+.officials{
+	text-align: center;
+	font-size: 15px;
+	
+}
+#readmore-button{
+}
+
+.reference {
+	text-align: center;
+}
+
+#credits{
+	text-align: center;
+}
+
+
+
+
+
+
